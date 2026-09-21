@@ -272,36 +272,6 @@ onBeforeUnmount(clearCopyMessage)
       </dl>
     </section>
 
-    <section class="rules-card" aria-labelledby="rules-title">
-      <div class="rules-intro">
-        <p class="section-kicker">编码规则</p>
-        <h2 id="rules-title">每个符号装下 2 bit</h2>
-        <p>
-          每个 UTF-8 字节从高位到低位拆成四组；所有 v1 结果固定以
-          <strong>喵咪</strong> 开头，不需要填充。
-        </p>
-      </div>
-
-      <dl class="symbol-map">
-        <div>
-          <dt>喵</dt>
-          <dd>00</dd>
-        </div>
-        <div>
-          <dt>咪</dt>
-          <dd>01</dd>
-        </div>
-        <div>
-          <dt>！</dt>
-          <dd>10</dd>
-        </div>
-        <div>
-          <dt>～</dt>
-          <dd>11</dd>
-        </div>
-      </dl>
-    </section>
-
     <footer class="page-footer">
       <span aria-hidden="true">ฅ^•ﻌ•^ฅ</span>
       <p>没有上传，没有追踪，只有喵。</p>
